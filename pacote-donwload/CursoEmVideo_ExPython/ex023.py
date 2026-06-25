@@ -1,0 +1,5 @@
+num = str(input('Digite um numero de 0 a 9999: '))
+print(num.split([0]))
+print(num.split([1]))
+print(num.split([2]))
+print(num.split([3]))
