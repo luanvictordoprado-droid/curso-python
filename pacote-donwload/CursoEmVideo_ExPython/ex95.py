@@ -21,12 +21,12 @@ while continuar:
         if pergunta == 'S':
             break
         elif pergunta == 'N':
-            continuar = False   # ← avisa o while principal parar
+            continuar = False   
             break
         else:
             print('Por favor, digite apenas S ou N.')
 
-# ← fora do while principal
+
 for i, jogador in enumerate(lista_jogadores, 1):
     print(f'----- Jogador {i} -----')
     print(f'Nome:  {jogador["nome"]}')
@@ -37,7 +37,7 @@ while True:
     num = int(input(f'Dados de qual jogador? (1 a {len(lista_jogadores)}, 999 para parar): '))
 
     if 1 <= num <= len(lista_jogadores):
-        jogador = lista_jogadores[num - 1]        # ← pega só o jogador escolhido
+        jogador = lista_jogadores[num - 1]        
         print(f'----- Jogador {num} — {jogador["nome"]} -----')
         for j, gols in enumerate(jogador["gols"], 1):
             print(f'  Partida {j}: {gols} gol{"s" if gols != 1 else ""}')
