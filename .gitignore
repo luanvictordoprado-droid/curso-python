@@ -179,3 +179,6 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+pacote-donwload/CursoEmVideo_ExPython/analisador.py
+pacote-donwload/CursoEmVideo_ExPython/projeto.py
+pacote-donwload/CursoEmVideo_ExPython/projeto2.py
